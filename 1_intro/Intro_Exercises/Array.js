@@ -8,6 +8,8 @@ var letters = ["a","b","c"];
 console.log(letters[1]);
 // --------------------------------------
 // Exercise 2 - Array Positioning
+var friends = [];
+
 
 var joakim = { 
     "name": "Joakim"
