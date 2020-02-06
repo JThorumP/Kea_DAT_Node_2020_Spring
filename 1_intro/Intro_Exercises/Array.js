@@ -22,8 +22,8 @@ var mathias = {
 };
 
 friends.push(joakim, anton, mathias);
-
-console.log(friends);
+console.table(friends)
+console.log();
 
 // What a lonely array. Add at least 3 friend objects to it.  
 
@@ -47,7 +47,8 @@ var diet = ["tomato", "cucumber", "rocolla", "kale"]
 
 diet.splice(3,0, "hamburger", "soda", "pizza");
 
-console.log(diet);
+console.table(diet);
+console.log();
 
 // You are a programmer. In one line (one statement) insert hamburger, soda and pizza between the elements rocolla and kale
 
@@ -58,6 +59,7 @@ console.log(diet);
 // Exercise 5 - Remove element
 diet.pop();
 
-console.log(diet);
+console.table(diet);
+console.log();
 // You don't like kale at all. Remove the LAST element of the array.
 // Don't remove by index. You know in advance that it's the last in the array because you are too full already. 
