@@ -9,14 +9,17 @@ console.log(letters[1]);
 // --------------------------------------
 // Exercise 2 - Array Positioning
 
-var friend = {
-    "firend1": "Joakim",
-     "friend2": "Anton", 
-     "friend3": "Mathias"
+var joakim = { 
+    "name": "Joakim"
+};
+var anton = {
+    "name": "Anton"
+};
+var mathias = {
+    "name": "Mathias"
 };
 
-
-var friends = [friend];
+friends.push(joakim, anton, mathias);
 
 console.log(friends);
 
