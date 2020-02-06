@@ -63,3 +63,52 @@ console.table(diet);
 console.log();
 // You don't like kale at all. Remove the LAST element of the array.
 // Don't remove by index. You know in advance that it's the last in the array because you are too full already. 
+
+
+
+// --------------------------------------
+// Exercise 6 - Copy array
+
+// You really like your daily diet from last exercise. Copy it to a new array called dinnerTray so you can give it to a friend.  
+
+var dinnerTray = diet.slice();
+
+console.table(dinnerTray);
+console.log();
+// --------------------------------------
+
+//array.slice(start, end)  // start and end are optional
+
+// --------------------------------------
+// Exercise 7 - For loop
+
+var letters = ["a","b","c", "d", "e", "f", "g", "h"];
+
+for(i = 1; i < letters.length; i += 2){
+    console.log(letters[i]);
+};
+console.log();
+
+// log every second char in the array starting from b
+
+// --------------------------------------
+// Exercise 8 - For loop and if statement
+
+var numbers  = [5, 3, 2, 7, 11, 12, 0, -20, 6];
+
+var discardedNumbers = [];
+
+for(i = 0; i < numbers.length; i++){
+
+    if (numbers[i] >6 || numbers[i] <0)
+        console.log(numbers[i])
+    else{
+        discardedNumbers.push(numbers[i])
+    }
+}
+console.log(discardedNumbers)
+
+// log the element if the number is above 6 or below 0
+// else push them to the array discardedNumbers
+
+// --------------------------------------
